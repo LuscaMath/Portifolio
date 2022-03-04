@@ -68,8 +68,10 @@
 
 
 .main-section {
-    background-color: #2F4F4F;
     box-sizing: border-box;
+    background-image: url(photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 800px;
     padding-top: 115px;
     padding-left: 90px;
