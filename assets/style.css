@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.cabecalho {
+    background-color: #3A4042;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 10px solid #000;
+}
+
+.logo-lusca {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #62C370;
+    text-shadow: 5px 5px 0px #000000;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item::before {
+    content: "";
+    background-color: #62C370;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.botao-principal {
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    transition: transform 100ms cubic-bezier(.65,.05,.36,1);
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #62C370;
+    width: 170px;
+    height: 60px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.botao-principal:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    color: #000;
+    background: #FFFFFF;
+}
+
+
+.main-section {
+    box-sizing: border-box;
+    background-image: url(photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding-top: 115px;
+    padding-left: 90px;
+    border-bottom: 10px solid #000;
+}
+
+.box-content {
+    display: flex;
+    width: 640px;
+    flex-direction: column;
+    gap: 26px;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0px #000;
+    text-align: center;
+    padding: 42px 44px;
+}
+
+.main-title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #62C370;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.main-subtitle {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.main-buttons {
+    display: flex;
+    padding-top: 38px;
+    padding-left: 80px;
+    gap: 112px;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 30px;
+    background: #62C370;
+    height: 730px;
+    border-bottom: 10px solid #000;
+}
+
+.main-title.-second {
+    color: #FFFFFF;
+    text-shadow: none;
+    margin-bottom: 101px;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.skill-tec {
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+    width: 90px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.progress-bar {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 5px solid #000;
+    height: 40px;
+}
+
+.wrapper-skills {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 960px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.wrapper-skills .skill-tec{
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.wrapper-skills .progress-bar {
+    width: 320px;
+}
+
+.wrapper-skills .skill-tec.-space {
+    margin-right: 100px;
+}
+
+.about-me {
+    text-align: center;
+    height: 520px;
+    padding-top: 30px;
+    background: #2F4F4F;
+    border-bottom: 10px solid #000;
+}
+
+.main-title.-third {
+    color: #FFFFFF;
+}
+
+.box-content.-second {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: none;
+    background-color: #2F4F4F;
+    height: 250px;
+    border: 10px solid #000;
+    box-shadow: none;
+}
+
+.texto-me {
+    font-family: 'Fira Code', monospace;
+    font-size: 15px;
+    text-align:justify;
+    color: #fff;
+
+}
+
+.rodape {
+    background: #62C370;
+}
+
+.link-midias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.iconn {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    height: 45px;
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
